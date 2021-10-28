@@ -42,9 +42,7 @@ function generateCash() {
         resultText.innerHTML=" ";
       } else {
         returnDiv.classList.add("hidden");
-        resultText.innerText = `Cash given by customer is less ${
-          bill.value - cash.value
-        }`;
+        lert("cash given by customer is less then the bill amount")
       }
     } else {
       alert("Invalid characters entered!")
